@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,15 +11,31 @@
 		0CC33CE426FCF01A00398515 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC33CE326FCF01A00398515 /* ContentView.swift */; };
 		0CC33CE626FCF01F00398515 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CC33CE526FCF01F00398515 /* Assets.xcassets */; };
 		0CC33CE926FCF01F00398515 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CC33CE826FCF01F00398515 /* Preview Assets.xcassets */; };
+		0CC33CF226FCF34900398515 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 0CC33CF126FCF34900398515 /* FirebaseFirestore */; };
+		0CC33CF426FCF34900398515 /* FirebaseFirestoreSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 0CC33CF326FCF34900398515 /* FirebaseFirestoreSwift-Beta */; };
+		0CC33CF826FCF42E00398515 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0CC33CF726FCF42E00398515 /* GoogleService-Info.plist */; };
+		0CC33CFE26FCF67000398515 /* CardRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC33CFD26FCF67000398515 /* CardRepository.swift */; };
+		0CC33D0026FCF67E00398515 /* StudyCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC33CFF26FCF67E00398515 /* StudyCard.swift */; };
+		0CC33D0226FCF8AC00398515 /* CardListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC33D0126FCF8AC00398515 /* CardListViewModel.swift */; };
+		0CC33D0426FD081D00398515 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC33D0326FD081C00398515 /* CardView.swift */; };
+		0CC33D0626FD089300398515 /* CardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC33D0526FD089200398515 /* CardViewModel.swift */; };
+		0CC33D0826FD1AB700398515 /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC33D0726FD1AB700398515 /* FormView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0CC33CDE26FCF01A00398515 /* SUILoginFirebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SUILoginFirebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CC33CDE26FCF01A00398515 /* SUISC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SUISC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CC33CE126FCF01A00398515 /* SUILoginFirebaseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SUILoginFirebaseApp.swift; sourceTree = "<group>"; };
 		0CC33CE326FCF01A00398515 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0CC33CE526FCF01F00398515 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0CC33CE826FCF01F00398515 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0CC33CEA26FCF01F00398515 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CC33CF726FCF42E00398515 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0CC33CFD26FCF67000398515 /* CardRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardRepository.swift; sourceTree = "<group>"; };
+		0CC33CFF26FCF67E00398515 /* StudyCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyCard.swift; sourceTree = "<group>"; };
+		0CC33D0126FCF8AC00398515 /* CardListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardListViewModel.swift; sourceTree = "<group>"; };
+		0CC33D0326FD081C00398515 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		0CC33D0526FD089200398515 /* CardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewModel.swift; sourceTree = "<group>"; };
+		0CC33D0726FD1AB700398515 /* FormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +43,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CC33CF226FCF34900398515 /* FirebaseFirestore in Frameworks */,
+				0CC33CF426FCF34900398515 /* FirebaseFirestoreSwift-Beta in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -36,7 +54,7 @@
 		0CC33CD526FCF01A00398515 = {
 			isa = PBXGroup;
 			children = (
-				0CC33CE026FCF01A00398515 /* SUILoginFirebase */,
+				0CC33CE026FCF01A00398515 /* SUISC */,
 				0CC33CDF26FCF01A00398515 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,21 +62,25 @@
 		0CC33CDF26FCF01A00398515 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0CC33CDE26FCF01A00398515 /* SUILoginFirebase.app */,
+				0CC33CDE26FCF01A00398515 /* SUISC.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0CC33CE026FCF01A00398515 /* SUILoginFirebase */ = {
+		0CC33CE026FCF01A00398515 /* SUISC */ = {
 			isa = PBXGroup;
 			children = (
+				0CC33CFC26FCF65800398515 /* Repository */,
+				0CC33CFB26FCF65300398515 /* ViewModels */,
+				0CC33CFA26FCF64C00398515 /* Models */,
+				0CC33CF926FCF64200398515 /* Views */,
 				0CC33CE126FCF01A00398515 /* SUILoginFirebaseApp.swift */,
-				0CC33CE326FCF01A00398515 /* ContentView.swift */,
 				0CC33CE526FCF01F00398515 /* Assets.xcassets */,
 				0CC33CEA26FCF01F00398515 /* Info.plist */,
+				0CC33CF726FCF42E00398515 /* GoogleService-Info.plist */,
 				0CC33CE726FCF01F00398515 /* Preview Content */,
 			);
-			path = SUILoginFirebase;
+			path = SUISC;
 			sourceTree = "<group>";
 		};
 		0CC33CE726FCF01F00398515 /* Preview Content */ = {
@@ -69,12 +91,47 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		0CC33CF926FCF64200398515 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0CC33CE326FCF01A00398515 /* ContentView.swift */,
+				0CC33D0326FD081C00398515 /* CardView.swift */,
+				0CC33D0726FD1AB700398515 /* FormView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0CC33CFA26FCF64C00398515 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0CC33CFF26FCF67E00398515 /* StudyCard.swift */,
+				0CC33D0526FD089200398515 /* CardViewModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0CC33CFB26FCF65300398515 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				0CC33D0126FCF8AC00398515 /* CardListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		0CC33CFC26FCF65800398515 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				0CC33CFD26FCF67000398515 /* CardRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0CC33CDD26FCF01A00398515 /* SUILoginFirebase */ = {
+		0CC33CDD26FCF01A00398515 /* SUISC */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0CC33CED26FCF01F00398515 /* Build configuration list for PBXNativeTarget "SUILoginFirebase" */;
+			buildConfigurationList = 0CC33CED26FCF01F00398515 /* Build configuration list for PBXNativeTarget "SUISC" */;
 			buildPhases = (
 				0CC33CDA26FCF01A00398515 /* Sources */,
 				0CC33CDB26FCF01A00398515 /* Frameworks */,
@@ -84,9 +141,13 @@
 			);
 			dependencies = (
 			);
-			name = SUILoginFirebase;
+			name = SUISC;
+			packageProductDependencies = (
+				0CC33CF126FCF34900398515 /* FirebaseFirestore */,
+				0CC33CF326FCF34900398515 /* FirebaseFirestoreSwift-Beta */,
+			);
 			productName = SUILoginFirebase;
-			productReference = 0CC33CDE26FCF01A00398515 /* SUILoginFirebase.app */;
+			productReference = 0CC33CDE26FCF01A00398515 /* SUISC.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -103,7 +164,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0CC33CD926FCF01A00398515 /* Build configuration list for PBXProject "SUILoginFirebase" */;
+			buildConfigurationList = 0CC33CD926FCF01A00398515 /* Build configuration list for PBXProject "SUISC" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,11 +173,14 @@
 				Base,
 			);
 			mainGroup = 0CC33CD526FCF01A00398515;
+			packageReferences = (
+				0CC33CF026FCF34900398515 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 0CC33CDF26FCF01A00398515 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0CC33CDD26FCF01A00398515 /* SUILoginFirebase */,
+				0CC33CDD26FCF01A00398515 /* SUISC */,
 			);
 		};
 /* End PBXProject section */
@@ -128,6 +192,7 @@
 			files = (
 				0CC33CE926FCF01F00398515 /* Preview Assets.xcassets in Resources */,
 				0CC33CE626FCF01F00398515 /* Assets.xcassets in Resources */,
+				0CC33CF826FCF42E00398515 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +203,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CC33D0826FD1AB700398515 /* FormView.swift in Sources */,
+				0CC33D0226FCF8AC00398515 /* CardListViewModel.swift in Sources */,
 				0CC33CE426FCF01A00398515 /* ContentView.swift in Sources */,
+				0CC33D0026FCF67E00398515 /* StudyCard.swift in Sources */,
+				0CC33CFE26FCF67000398515 /* CardRepository.swift in Sources */,
+				0CC33D0426FD081D00398515 /* CardView.swift in Sources */,
 				0CC33CE226FCF01A00398515 /* SUILoginFirebaseApp.swift in Sources */,
+				0CC33D0626FD089300398515 /* CardViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +339,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"SUILoginFirebase/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SUISC/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SUILoginFirebase/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -289,7 +360,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"SUILoginFirebase/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SUISC/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SUILoginFirebase/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -307,7 +378,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0CC33CD926FCF01A00398515 /* Build configuration list for PBXProject "SUILoginFirebase" */ = {
+		0CC33CD926FCF01A00398515 /* Build configuration list for PBXProject "SUISC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0CC33CEB26FCF01F00398515 /* Debug */,
@@ -316,7 +387,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0CC33CED26FCF01F00398515 /* Build configuration list for PBXNativeTarget "SUILoginFirebase" */ = {
+		0CC33CED26FCF01F00398515 /* Build configuration list for PBXNativeTarget "SUISC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0CC33CEE26FCF01F00398515 /* Debug */,
@@ -326,6 +397,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0CC33CF026FCF34900398515 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.7.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0CC33CF126FCF34900398515 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0CC33CF026FCF34900398515 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		0CC33CF326FCF34900398515 /* FirebaseFirestoreSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0CC33CF026FCF34900398515 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreSwift-Beta";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0CC33CD626FCF01A00398515 /* Project object */;
 }
